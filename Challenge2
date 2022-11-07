@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 2</title>
+  <style>
+    body {
+      margin: 200px;
+    }
+
+    .newyork{
+      transform:scale(0.5) rotate(145deg);
+    }
+
+    .paris {
+      transform: rotate(55deg);
+    }
+
+    .sydney {
+      transform: translateX(50px) rotate(-50deg) scale(1.5);
+    }
+
+    .rio {
+      transform: translateY(-50px) scale(0.4) rotate(80deg) translateX(-100px);
+    }
+  </style>
+</head>
+<body>
+  <img class="newyork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg">
+  <img class="paris" src="https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateParis_Heroshutterstock_112137761.jpg">
+  <img class="sydney" src="https://www.tripsavvy.com/thmb/k39AA6dtCIbao7bsVyy5HDz7AJo=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/OperaHouse-755d893182dc4811b608eb1a99792fd7.jpg">
+  <img class="rio" src="https://media.architecturaldigest.com/photos/56f4648318aebd4c543720ac/master/w_1920%2Cc_limit/Cristo%2520Redentor.jpg">
+  
+</body>
+</html>
