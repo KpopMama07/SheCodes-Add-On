@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KPOP - My Hobby</title>
+  <style>
+    body {
+        background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      a {
+        color: blueviolet;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid plum;
+        background: white;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: plum;
+        cursor: pointer;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+
+      .theme-button {
+        display: block;
+        font-size: 10px;
+        background: black;
+        color: white;
+        padding: 15 20px;
+        border-radius: 50px;
+        border: none;
+        transition: all 150ms ease-in-out;
+        margin: 0 auto;
+      }
+
+      .theme-button:hover {
+        color: black;
+        background: white;
+      }
+
+      .kpop-intro-picture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+      }
+
+      .kpop-intro-picture:hover {
+        transform: scale(1.1);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover{
+        transform: scale(2);
+      }
+
+      .dark {
+        background: linear-gradient(to right, #434343 0%, black 100%);
+        color: white;
+      }
+
+      .dark .container{
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .dark a {
+        color: plum;
+      }
+
+      .dark .theme-button {
+        display: block;
+        font-size: 10px;
+        background: plum;
+        color: black;
+        padding: 15 20px;
+        border-radius: 50px;
+        border: none;
+        transition: all 150ms ease-in-out;
+        margin: 0 auto;
+      }
+
+      .dark .theme-button:hover {
+        color: black;
+        background: white;
+      }
+
+  </style>
+</head>
+<body>
+  <button class="theme-button">Change Theme</button>
+  <br/>
+  <div class="container">
+  <h1>🎵 What is Kpop? 🎶 </h1>
+  <h2>My favorite genre of music</h2>
+  <hr/>
+  <br/>
+  <a href="https://en.wikipedia.org/wiki/K-pop" target="_blank"><img class="kpop-intro-picture" src="https://images.assetsdelivery.com/compings_v2/almazovadolzhenko/almazovadolzhenko2003/almazovadolzhenko200300025.jpg" ></a>
+  <div class="grid">
+<img src="https://i.pinimg.com/originals/3d/ea/dc/3deadc90ac81a6556dd6dd48e1caca8c.jpg">
+<img src="https://i.pinimg.com/originals/44/14/35/441435b8401485e69a095fa2a72b02fa.jpg">
+<img src="data:image/png;base64,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">
+<img src="https://us.123rf.com/450wm/almazovadolzhenko/almazovadolzhenko2003/almazovadolzhenko200300056/142422686-k-pop-korean-popular-music-style-finger-heart-symbol-and-flag-k-pop-hand-drawn-lettering-for-banner-.jpg">
+</div>
+<p>
+K-pop (Korean: 케이팝; RR: keipap), short for Korean popular music, is a form of popular music originating in South Korea as part of South Korean culture. It includes styles and genres from around the world, such as pop, hip hop, R&B, experimental, rock, jazz, gospel, reggae, electronic dance, folk, country, disco, and classical on top of its traditional Korean music roots. The term "K-pop" became popular in the 2000s, especially in the international context.
+<br/>
+<br/>
+Learn More About Kpop <a href="https://www.cbsnews.com/news/inside-the-world-of-k-pop/" target="_blank">Here</a>
+</p>
+</div>
+<footer>Coded with 💟 by <a href="https://www.tsunodastylings.com/about" target="_blank">Jasmine Tsunoda</a> with HTML, CSS and JavaScript
+</footer>
+
+<script>
+  function changeTheme() {
+    let body = document.querySelector("body");
+
+    if (body.classList.contains("dark")) {
+      body.classList.remove("dark");
+    }else{
+      body.classList.add("dark");
+    }
+  }
+
+  let themeButton = document.querySelector(".theme-button");
+  themeButton.addEventListener("click", changeTheme);
+</script>
+</body>
+</html>
