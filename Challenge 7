@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KPOP - My Hobby</title>
+</head>
+<body>
+  <button>Dark Theme</button>
+  <h1>Kpop</h1>
+  <h2>My Hobby</h2>
+  <a href="https://en.wikipedia.org/wiki/K-pop" target="_blank"><img src="https://images.assetsdelivery.com/compings_v2/almazovadolzhenko/almazovadolzhenko2003/almazovadolzhenko200300025.jpg"></a>
+<img src="https://i.pinimg.com/originals/3d/ea/dc/3deadc90ac81a6556dd6dd48e1caca8c.jpg">
+<img src="https://pm1.narvii.com/6357/615f536eb4ffd8d803d46c5cf83488a032023376_00.jpg">
+<img src="https://lh3.googleusercontent.com/O97swI5azRJOPPBz6s2L-VKbpNXECsAbgoCR3ffJltXvlFIgGwgbbp0_bvOTdsZAfx4DLpTm_7fpsf_PQiFssfj14D_Jl-kp=w780-nu-rj-l80-e365">
+<img src="https://ih1.redbubble.net/image.1858769163.4777/st,small,845x845-pad,1000x1000,f8f8f8.jpg">
+<p>
+K-pop (Korean: 케이팝; RR: keipap), short for Korean popular music,[1] is a form of popular music originating in South Korea as part of South Korean culture.[2] It includes styles and genres from around the world, such as pop, hip hop, R&B, experimental, rock, jazz, gospel, reggae, electronic dance, folk, country, disco, and classical on top of its traditional Korean music roots.[3] The term "K-pop" became popular in the 2000s, especially in the international context.
+</p>
+<button>Learn About Kpop</button>
+<footer>Coded with 💟 by <a href="https://www.tsunodastylings.com/about" target="_blank">Jasmine Tsunoda</a>
+</footer>
+</body>
+</html>
